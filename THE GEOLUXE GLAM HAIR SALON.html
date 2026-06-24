@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>The GeoLuxe Glam Hair Salon</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home">
+          <img src="assets/logo.png" alt="The GeoLuxe logo" class="logo" />
+          <span class="brand-text">The GeoLuxe Glam Hair Salon</span>
+        </a>
+        <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <nav id="mainNav" class="main-nav">
+          <a href="#services">Services</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact" class="cta">Book Now</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-inner">
+          <h1 class="hero-title">Glam hair & nails — modern beauty, luxe results</h1>
+          <p class="hero-sub">Expert stylists, bespoke treatments, and a pampering experience.</p>
+          <a href="#contact" class="btn primary">Book a Consultation</a>
+        </div>
+      </section>
+
+      <section id="about" class="container about">
+        <h2>About The GeoLuxe</h2>
+        <p>Welcome to The GeoLuxe — a modern salon specializing in precision haircuts, creative coloring, and luxury nail services. We focus on personalized service in a bright, modern space.</p>
+      </section>
+
+      <section id="services" class="container services">
+        <h2>Services</h2>
+        <div class="grid services-grid">
+          <div class="card">
+            <h3>Haircuts & Styling</h3>
+            <p>Precision cuts, blowouts, and special-event styling. Starting at R35.</p>
+          </div>
+          <div class="card">
+            <h3>Color & Highlights</h3>
+            <p>Full color, balayage, and corrective color work. Starting at R65.</p>
+          </div>
+          <div class="card">
+            <h3>Extensions</h3>
+            <p>High-quality extensions and professional application. Consultation required.</p>
+          </div>
+          <div class="card">
+            <h3>Manicures & Nails</h3>
+            <p>Classic mani, gel polish, nail art and more. Starting at R25.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="container gallery">
+        <h2>Gallery</h2>
+        <p class="gallery-subtitle">Our recent work — nails, styling and transformations. Swipe or hover to explore.</p>
+
+        <div class="gallery-showcase" id="galleryShowcase">
+          <div class="showcase-media">
+            <button id="showPrev" class="show-control" aria-label="Previous">‹</button>
+            <img id="showImg" src="assets/photo1.jpeg" alt="Showcase image">
+            <button id="showNext" class="show-control" aria-label="Next">›</button>
+          </div>
+          <div class="showcase-meta">
+            <div id="showCaption" class="caption">Classic red nails</div>
+            <button id="showPause" class="btn small">Pause</button>
+          </div>
+        </div>
+        <div class="grid gallery-grid">
+          <figure>
+            <picture>
+              <source srcset="assets/photo1.webp" type="image/webp">
+              <img src="assets/photo1.jpeg" alt="Classic red nails" loading="lazy" decoding="async">
+            </picture>
+            <figcaption class="caption">Classic red nails</figcaption>
+          </figure>
+          <figure>
+            <picture>
+              <source srcset="assets/photo2.webp" type="image/webp">
+              <img src="assets/photo2.jpeg" alt="Pink French tips" loading="lazy" decoding="async">
+            </picture>
+            <figcaption class="caption">Pink French tips</figcaption>
+          </figure>
+          <figure>
+            <picture>
+              <source srcset="assets/photo3.webp" type="image/webp">
+              <img src="assets/photo3.jpeg" alt="Stiletto nail art" loading="lazy" decoding="async">
+            </picture>
+            <figcaption class="caption">Stiletto nail art</figcaption>
+          </figure>
+          <figure>
+            <picture>
+              <source srcset="assets/photo4.webp" type="image/webp">
+              <img src="assets/photo4.jpeg" alt="Natural pink set" loading="lazy" decoding="async">
+            </picture>
+            <figcaption class="caption">Natural pink set</figcaption>
+          </figure>
+          <figure>
+            <picture>
+              <source srcset="assets/photo5.webp" type="image/webp">
+              <img src="assets/photo5.jpeg" alt="Soft white nails" loading="lazy" decoding="async">
+            </picture>
+            <figcaption class="caption">Soft white nails</figcaption>
+          </figure>
+          <figure>
+            <picture>
+              <source srcset="assets/photo6.webp" type="image/webp">
+              <img src="assets/photo6.jpeg" alt="Neon tip design" loading="lazy" decoding="async">
+            </picture>
+            <figcaption class="caption">Neon tip design</figcaption>
+          </figure>
+          <figure>
+            <picture>
+              <source srcset="assets/photo7.webp" type="image/webp">
+              <img src="assets/photo7.jpeg" alt="3D floral nails" loading="lazy" decoding="async">
+            </picture>
+            <figcaption class="caption">3D floral nails</figcaption>
+          </figure>
+          <figure>
+            <picture>
+              <source srcset="assets/photo8.webp" type="image/webp">
+              <img src="assets/photo8.jpeg" alt="Promo collage" loading="lazy" decoding="async">
+            </picture>
+            <figcaption class="caption">Promo collage</figcaption>
+          </figure>
+          <figure>
+            <picture>
+              <source srcset="assets/photo9.webp" type="image/webp">
+              <img src="assets/photo9.jpeg" alt="Braids & styling" loading="lazy" decoding="async">
+            </picture>
+            <figcaption class="caption">Braids & styling</figcaption>
+          </figure>
+          <figure>
+            <picture>
+              <source srcset="assets/photo10.webp" type="image/webp">
+              <img src="assets/photo10.jpeg" alt="Curly finish" loading="lazy" decoding="async">
+            </picture>
+            <figcaption class="caption">Curly finish</figcaption>
+          </figure>
+          <figure>
+            <picture>
+              <source srcset="assets/photo11.webp" type="image/webp">
+              <img src="assets/photo11.jpeg" alt="Back view style" loading="lazy" decoding="async">
+            </picture>
+            <figcaption class="caption">Back view style</figcaption>
+          </figure>
+          <figure>
+            <picture>
+              <source srcset="assets/photo12.webp" type="image/webp">
+              <img src="assets/photo12.jpeg" alt="Long waves" loading="lazy" decoding="async">
+            </picture>
+            <figcaption class="caption">Long waves</figcaption>
+          </figure>
+        </div>
+        <p class="muted">Tip: replace these `photo*.jpeg` files in the `assets/` folder with higher-resolution images if available.</p>
+      </section>
+
+      <!-- Lightbox modal -->
+      <div id="lightbox" class="lightbox" style="display:none">
+        <button type="button" class="close" id="lightboxClose" aria-label="Close" onclick="try{ closeLightbox(); }catch(e){}">×</button>
+        <img id="lightboxImg" src="" alt="">
+      </div>
+
+      <section id="testimonials" class="container testimonials">
+        <h2>What clients say</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial-texts">
+            <blockquote>"Amazing service — my hair has never looked better." — A. Parker</blockquote>
+            <blockquote>"Friendly staff and a relaxing atmosphere." — J. Lee</blockquote>
+          </div>
+          <div class="testimonial-videos">
+            <video controls preload="none" poster="assets/testimonials/video1.jpg">
+              <source src="assets/testimonials/video1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video controls preload="none" poster="assets/testimonials/video2.jpg">
+              <source src="assets/testimonials/video2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video controls preload="none" poster="assets/testimonials/video3.jpg">
+              <source src="assets/testimonials/video3.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="container contact">
+        <h2>Contact & Booking</h2>
+        <div class="contact-grid">
+          <form id="contactForm" class="contact-form">
+            <label>Name<input type="text" name="name" required></label>
+            <label>Email<input type="email" name="email" required></label>
+            <label>Service
+              <select name="service">
+                <option>Haircut</option>
+                <option>Coloring</option>
+                <option>Styling</option>
+                <option>Manicure</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label>Preferred date<input type="date" name="date"></label>
+            <label>Message<textarea name="message"></textarea></label>
+            <button class="btn" type="submit">Send Request</button>
+            <p id="formMessage" class="form-message" aria-live="polite"></p>
+          </form>
+
+          <div class="contact-info">
+            <h3>Visit Us</h3>
+            <p>Address: 262 Lilian Ngoyi, Johannesburg</p>
+            <p>Phone: +27 83 502 0195</p>
+            <p>Email: <a href="mailto:molinemurapa85@gmail.com">molinemurapa85@gmail.com</a></p>
+            <p>Facebook: <a href="https://www.facebook.com/share/14fV8Ev61Hv/" target="_blank" rel="noopener">The GeoLuxe Glam Hair Salon</a></p>
+            <h4>Hours</h4>
+            <p>Tue–Sat: 9am–7pm · Sun: 10am–4pm · Mon: Closed</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>© <span id="year"></span> The GeoLuxe Glam Hair Salon</small>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
